@@ -1,0 +1,73 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ body{
+        box-sizing:border-box;
+        font-family: "Press Start 2P",popular,sans-serif;
+        overflow-x: hidden;
+        background-color: #150B24;
+    }
+ 
+ 
+ nav{
+        width:100%;
+        background:#150B24;
+        color:white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:15px 40px;
+    }
+
+    .links{
+        display:flex;
+        gap:25px;
+        list-style:none;
+    }
+
+    .links a{
+        color:white;
+        text-decoration:none;
+        font-size:1rem;
+        transition:0.3s;
+    }
+
+    .links a:hover{
+        color:#A624D0;
+    }
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-image: url(./Assets/Untitled-1.png);
+    background-size: cover;        /* La imagen cubre toda la sección */
+    background-position: center;   /* Centrada */
+    background-repeat: no-repeat;  /* No se repite */
+}
+
+.btn-grid{
+    display:grid;
+    grid-template-columns:repeat(1, 1fr);
+    gap:20px;
+    padding:30px;
+    border: 4px solid #a624d0;
+    box-shadow:0 4px 20px rgba(0,0,0,0.1);
+}
+
+ button {
+    background-color: #0FCF7F;
+     padding: 15px 40px 15px 40px;
+     margin: 10px;
+      font-size: 14px;
+     border: 0;
+     box-shadow: 0px 5px white, 0px -5px white, 5px 0px white, -5px 0px white, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36 ;
+     cursor: pointer;
+}
+ button:active {
+     transform: translateY(5px);
+     box-shadow: 0px 5px white, 0px -5px white, 5px 0px white, -5px 0px white,inset 0px 5px #00000038;
+}
